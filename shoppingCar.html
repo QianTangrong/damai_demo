@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>-我的购物车</title>
+    <link rel="shortcut icon" href="//img.alicdn.com/tfs/TB1RxAHSmrqK1RjSZK9XXXyypXa-16-16.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/shoppingCar.css">
+</head>
+
+<body>
+    <!------------------------------------------- 头部结构 ----------------------------------------------------->
+    <!-- <div class="hp-top"></div> -->
+    <div class="top">
+        <div class="container">
+            <div class="login">
+                <a href="index.html2"><img src="image/index/log.png" /></a>
+            </div>
+
+            <!-- <div class="hotcities"></div> -->
+
+            <div class="home-kind">
+                <span class="home"><a href="index.html" style="color: #000">首页</a></span>
+                <span class="kind" style="color: #ff1268"><a href="search.html" style="color: #000">分类</a></span>
+            </div>
+
+            <div class="search" style="margin-left: 210px;">
+                <img src="image/index/1.png">
+                <input type="text" placeholder="搜索明星、演出、体育赛事" class="search-frame" />
+                <button class="search-font">搜索</button>
+            </div>
+
+            <div class="rights-header">
+                <span class="enroll"><img src="image/index/5.png" class="userImg"><a href="login.html"><i
+                            class="userName">登录</i></a>
+                    <ul>
+                        <li style="cursor: pointer;">个人信息</li>
+                        <li style="cursor: pointer;" class="shoppingCar">订单管理</li>
+                        <li class="exit" style="cursor: pointer;">我的订单</li>
+                    </ul>
+                </span>
+                <span class="download"><img src="image/index/3.png"><a href="#javascript"><i>下载</i></a>
+                    <div class="down-load">
+                        <img src="image/index/download.jpg">
+                    </div>
+                </span>
+                <span class="english"><img src="image/index/4.png"><i>English</i></span>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------- 内容部分 ------------------------------------------------------>
+    <div class="content">
+        <div class="container">
+            <div class="shoppingCar_main">
+                <div class="shoppingCar_title">
+                    <div class="myShoppingCar">我的购物车</div>
+                    <div class="go_shopping">继续购物</div>
+                    <div class="num_price">已选商品 <span class="all_number all">0 </span>件 合计 ￥<span
+                            class="all_price all">0 </span>元</div>
+                </div>
+                <div class="shoppingCar_box">
+                    <div class="item_title">
+                        <div class="check_all_box"><input type="checkbox" class="check_all_inp">全选</div>
+                        <div class="show_name_box">演出信息</div>
+                        <div class="show_price_box">单价（元）</div>
+                        <div class="show_number_box">数量</div>
+                        <div class="show_totalPrice_box">小计（元）</div>
+                        <div class="show_delete_box">操作</div>
+                    </div>
+                    <div class="item_box">
+
+                    
+                   <!--  <div class="show_item">
+                        <div class="show_item_check"><input type="checkbox"></div>
+                        <div class="show_item_img">
+                            <img src="https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01oI63yj2GdSCtyUcBv_!!0-item_pic.jpg_q60.jpg_.webp"
+                                alt="">
+                        </div>
+                        <div class="show_item_name"><span>2019 Simple Urban plus 成都简单生活节</span></div>
+                        <div class="show_item_price">￥320</div>
+                        <div class="show_item_adjust">
+                            <div class="adjust_box">
+                                <span class="adjust_reduce">-</span>
+                                <span class="adjust_number">1</span>
+                                <span class="adjust_add">+</span>
+                            </div>
+                        </div>
+                        <div class="show_item_total">
+                            ￥320
+                        </div>
+                        <div class="show_item_delete">
+                           <span>删除</span> 
+                        </div>
+                    </div> -->
+                   <!--  <div class="show_item">
+                            <div class="show_item_check"><input type="checkbox"></div>
+                            <div class="show_item_img">
+                                <img src="https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01oI63yj2GdSCtyUcBv_!!0-item_pic.jpg_q60.jpg_.webp"
+                                    alt="">
+                            </div>
+                            <div class="show_item_name"><span>2019 Simple Urban plus 成都简单生活节</span></div>
+                            <div class="show_item_price">￥320</div>
+                            <div class="show_item_adjust">
+                                <div class="adjust_box">
+                                    <span class="adjust_reduce">-</span>
+                                    <span class="adjust_number">1</span>
+                                    <span class="adjust_add">+</span>
+                                </div>
+                            </div>
+                            <div class="show_item_total">
+                                ￥320
+                            </div>
+                            <div class="show_item_delete">
+                               <span>删除</span> 
+                            </div>
+                        </div> -->
+                        <!-- <div class="show_item">
+                                <div class="show_item_check"><input type="checkbox"></div>
+                                <div class="show_item_img">
+                                    <img src="https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01oI63yj2GdSCtyUcBv_!!0-item_pic.jpg_q60.jpg_.webp"
+                                        alt="">
+                                </div>
+                                <div class="show_item_name"><span>2019 Simple Urban plus 成都简单生活节</span></div>
+                                <div class="show_item_price">￥320</div>
+                                <div class="show_item_adjust">
+                                    <div class="adjust_box">
+                                        <span class="adjust_reduce">-</span>
+                                        <span class="adjust_number">1</span>
+                                        <span class="adjust_add">+</span>
+                                    </div>
+                                </div>
+                                <div class="show_item_total">
+                                    ￥320
+                                </div>
+                                <div class="show_item_delete">
+                                   <span>删除</span> 
+                                </div>
+                            </div> -->
+                        </div>
+                        
+                </div>
+                <div class="shoppCar_account item_title">
+                    <div class="check_all_box"></div>
+                    <div class="account_delete"><span>删除选中商品</span></div>
+                    <div class="account_all">结 算</div>
+                    <div class="num_price">已选商品 <span class="all_number all">0 </span>件 合计 ￥<span
+                            class="all_price all">0 </span>元</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------- 底部结构 ------------------------------------------------------>
+    <div class="hp-bottom"></div>
+</body>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+<script src="js/shoppingCar.js"></script>
+<script>
+    $(".hp-bottom").load("footer.html"); //导入底部html文件
+</script>
+
+</html>

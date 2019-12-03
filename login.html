@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>大麦登录</title>
+    <link rel="shortcut icon" href="//img.alicdn.com/tfs/TB1RxAHSmrqK1RjSZK9XXXyypXa-16-16.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <!--------------------------------------- 顶部结构 ------------------------------------------>
+    <div class="load-top">
+        <div class="container">
+            <a href="index.html"><img src="image/index/log.png" alt=""></a>
+            <div class="english">
+                English
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------- 主体结构 --------------------------------------------->
+    <div class="mainbg">
+        <div class="container">
+            <div class="ad">
+                <img src="image/login/bg.png">
+            </div>
+
+            <div class="loading">
+                <div class="load-load">
+                    <div class="pass-load-name active">密码登录</div>
+                    <div class="sms-load-name">短信登录</div>
+                    <div class="scan-load-name">扫码登录</div>
+                </div>
+
+                <div class="load-cont">
+                    <!------------------- 登录框 ------------------>
+                    <div class="pass-load-cont active">
+                        <!-------------- 验证手机号邮箱 ----------->
+                        <div class="user">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-ren1-copy"></use>
+                            </svg>
+                            <input type="text" placeholder="请输入手机号或邮箱" class="inp_phone">
+                        </div>
+                        <!--------------- 验证密码 ---------->
+                        <div class="password">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-lock"></use>
+                            </svg>
+                            <input type="password" placeholder="请输入登录密码" class="inp_pwd">
+                        </div>
+                        <!------------ 登录按钮 ------------->
+                        <div class="load-s">
+                            <input type="button" value="登录" class="btn">
+                        </div>
+                        <!------------- 字体图标 -------------->
+                        <div class="login-blocks">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-taobao"></use>
+                            </svg>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-weixin"></use>
+                            </svg>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-QQ"></use>
+                            </svg>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-weibo"></use>
+                            </svg>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-zhifubao"></use>
+                            </svg>
+                        </div>
+                        <!------------- 注册/忘记密码 ----------------->
+                        <div class="login-links">
+                            <a href="#javascript;">忘记密码</a>
+                            <a href="register.html">免费注册</a>
+                        </div>
+                    </div>
+                    <!------------------ 短信登陆框 ------------------->
+                    <div class="sms-load-cont">
+                        <div class="sms-top">
+                            <div class="label-icon">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-shijian-"></use>
+                                </svg>
+                            </div>
+                            <div class="label-phone">+86v</div>
+                            <div class="input-wrap">
+                                <input type="text" class="fm-text" placeholder="请输入手机号">
+                            </div>
+                        </div>
+
+                        <div class="sms-feed">
+                            <div class="label-num">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-yanzhengma"></use>
+                                </svg>
+                            </div>
+                            <div class="label-yzm">
+                                <input type="text" class="fm-text" placeholder="请输入验证码" maxlength="6"
+                                    autocomplete="off">
+                            </div>
+                            <div class="send-btn">
+                                <a href="#javascript;" class="send-btn-link">获取验证码</a>
+                            </div>
+                        </div>
+
+                        <div class="sms-btn">
+                            <input type="button" value="登录">
+                        </div>
+                    </div>
+                    <!----------------------- 扫码登陆框 ---------------------->
+                    <div class="scan-load-cont">
+                        <!-- <div class="qrcode-login"> -->
+                        <div class="qrcode-login-title">请升级至大麦最新版本</div>
+                        <div class="qrcode-img">
+                            <img src="image/login/qrcode-img.png">
+                        </div>
+                        <div class="qrcode-desc">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-saoyisao"></use>
+                            </svg>
+                            <p> 打开<a href="http://mobile.damai.cn">大麦手机客户端</a>扫一扫登录</p>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------------- 底部结构 -------------------------------------------->
+<div class="hp-bottom"></div>
+</body>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/iconfont.js"></script>
+<script src="js/login.js"></script>
+<script src="js/cookie.js"></script>
+<script>
+ $(".hp-bottom").load("footer.html"); //导入底部html文件
+
+</script>
+</html>

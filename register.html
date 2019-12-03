@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>大麦PC注册</title>
+    <link rel="shortcut icon" href="//img.alicdn.com/tfs/TB1RxAHSmrqK1RjSZK9XXXyypXa-16-16.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <style>
+    .tips{
+        display: inline-block;
+        margin-left: 15px;
+        width: 150px;height: 100%;
+        line-height: 38px;
+        font-size: 12px;
+        color: #ff1268;
+    }
+    
+    </style>
+
+
+</head>
+
+<body>
+    <!----------------------------------------- 顶部结构 ----------------------------------------->
+    <div class="load-top">
+        <div class="container">
+            <a href="index.html"><img src="image/index/log.png" alt=""></a>
+            <div class="english">
+                English
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------ 主体结构 ----------------------------------------------->
+    <div class="register">
+        <div class="container">
+            <div class="box-zhuce">
+                <div class="row-box">
+                    <!-- 验证手机号   -->
+                    <div class="next-row">
+                        <div class="row-col">
+                            <span>手机号：</span>
+                            <span style="color: red">*</span>
+                        </div>
+                        <div class="row-input">
+                            <input type="text" placeholder="请输入手机号" class="inp_phone">
+                        </div>
+                        <span class="phone_tips  tips"></span>
+                    </div>
+                    <!-- 输入密码 -->
+                    <div class="next-row">
+                        <div class="row-col">
+                            <span>输入密码：</span>
+                            <span style="color: red">*</span>
+                        </div>
+                        <div class="row-input">
+                            <input type="password" placeholder="输入密码"  class="inp_pwd">
+                        </div>
+                        <span class="pwd_tips tips"></span>
+                    </div>
+
+                    <!-- 确认密码 -->
+                    <div class="next-row">
+                        <div class="row-col">
+                            <span>确认密码：</span>
+                            <span style="color: red">*</span>
+                        </div>
+                        <div class="row-input">
+                            <input type="password" placeholder="再次输入密码" class="inp_pwds">
+                        </div>
+                        <span class="pwds_tips  tips"></span>
+                    </div>
+
+                    <!-- 滑动确认 -->
+                    <div class="next-row">
+                        <div class="row-col">
+                            <span>滑动验证码：</span>
+                            <span style="color: red">*</span>
+                        </div>
+                        <div class="box-removeCheck">
+                            <p class="check-p">请按住滑块，拖动到最右边</p>
+                            <div class="box-smallBox">
+                                >>
+                            </div>
+                        </div>
+                        <span class="check_tips  tips"></span>
+
+                    </div>
+
+                    <!-- 同意注册 -->
+                    <div class="next-row">
+                        <div class="row-col"></div>
+
+                        <div class="box-checkbox">
+                            <input type="checkbox" class="checkBox_doc">
+                            <p id="Know">我已阅读并同意<a href="https://sale.damai.cn/contents/4677/13574.html"
+                                    target="_blank">《会员协议》</a>和<a href="https://sale.damai.cn/contents/4677/13572.html"
+                                    target="_blank">《隐私权条款》</a></p>
+                                    
+                                </div>
+                                <span class="doc_tips  tips"></span> 
+                    </div>
+
+                    <!-- 同意并注册按钮 -->
+                    <div class="next-row">
+                        <div class="row-col"></div>
+                        <button class="agree">同意并注册</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------------- 底部结构 ---------------------------------------------->
+    <div class="hp-bottom"></div>
+</body>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/iconfont.js"></script>
+<script src="js/index.js"></script>
+<script src="js/register.js"></script>
+<script>
+    $(".hp-bottom").load("footer.html"); //引入底部文件
+
+    var menu = document.getElementsByClassName('box-smallBox')[0];
+    var wrap = document.getElementsByClassName('box-removeCheck')[0];
+    var p = document.getElementsByClassName('check-p')[0];
+
+    //获取最长宽度
+    var maxWidth = wrap.clientWidth - menu.clientWidth;
+    //获取最小宽度
+    var minWidth = 0;
+    // console.log(maxWidth);
+    // console.log(minWidth);
+
+
+
+    menu.onmousedown = function (e) {
+
+        //开始解锁时，隐藏文字
+        p.style.display = "none";
+
+        var e = e || window.event;
+
+
+        var posX = e.clientX;
+
+        // console.log(menu.offsetLeft);
+        document.onmousemove = function (evt) {
+            var evt = evt || window.event;
+            var x = evt.clientX - posX;
+
+            /*  console.log(posX);
+             console.log(evt.clientX);
+             console.log(x); */
+
+            //控制小盒子移动范围
+            if (x > maxWidth) {
+                x = maxWidth;
+            }
+            if (x < 0) {
+                x = minWidth;
+            }
+          
+
+            //移动小盒子，移动距离为鼠标移动距离差
+            menu.style.left = x + "px";
+
+            //达到滑动距离最大值，解锁成功
+            if (menu.offsetLeft == 260) {
+                // wrapBox.innerHTML = ' <img src="../img/02.jpg" alt="" style="width: 100%;height:100%">'
+                menu.onmousedown = null;
+                document.onmousemove = null;
+                menu.style.left = 260 + "px";
+                p.innerHTML = "验证成功";
+                p.style.display = "block";
+                p.style.color = "#fff";
+                p.style.background = "#7AC23C";
+                
+            }
+
+        }
+
+    }
+
+        //保证在文档中松开也会触发事件
+        document.onmouseup = function () {
+
+            //松开清除移动事件
+            document.onmousemove = null;
+
+            //判断是否达到最大值，没有则回到最初地方
+            if (menu.offsetLeft != 260) {
+
+                //解锁失败，文字继续出现
+
+                p.style.display = "block";
+                var timer = setInterval(function(){
+                    var speed = 1; 
+                    menu.style.left = menu.offsetLeft-speed + "px";
+                    if(menu.offsetLeft<=0){
+                        menu.style.left = 0+"px";
+                        clearInterval(timer);
+                    }
+                    },1)
+               
+            }
+        }
+</script>
+
+</html>

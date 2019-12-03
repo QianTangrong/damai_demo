@@ -1,0 +1,189 @@
+.shoppingCar_main {
+  box-sizing: border-box;
+  width: 100%;
+}
+.shoppingCar_main .shoppingCar_title {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+.shoppingCar_main .shoppingCar_title div {
+  float: left;
+}
+.shoppingCar_main .shoppingCar_title .myShoppingCar {
+  font-size: 20px;
+  color: #ff1268;
+  font-weight: 600;
+}
+.shoppingCar_main .shoppingCar_title .num_price {
+  float: right;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.shoppingCar_main .shoppingCar_title .num_price .all {
+  color: #ff1268;
+  font-weight: 600;
+}
+.shoppingCar_main .shoppingCar_title .go_shopping {
+  float: right;
+  width: 100px;
+  height: 30px;
+  background: #ff1268;
+  line-height: 30px;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.shoppingCar_main .shoppingCar_box {
+  min-height: 200px;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+}
+.shoppingCar_main .item_title {
+  height: 40px;
+  background-color: #f3f1f1;
+}
+.shoppingCar_main .item_title div {
+  float: left;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+}
+.shoppingCar_main .item_title .check_all_box {
+  margin-left: 10px;
+  width: 50px;
+}
+.shoppingCar_main .item_title .show_name_box {
+  width: 430px;
+}
+.shoppingCar_main .item_title .show_price_box {
+  width: 150px;
+}
+.shoppingCar_main .item_title .show_number_box {
+  width: 250px;
+}
+.shoppingCar_main .item_title .show_totalPrice_box {
+  width: 200px;
+}
+.shoppingCar_main .item_title .show_delete_box {
+  width: 100px;
+}
+.shoppingCar_main .show_item {
+  padding-left: 30px;
+  height: 130px;
+  line-height: 130px;
+  text-align: center;
+}
+.shoppingCar_main .show_item div {
+  float: left;
+  margin-left: 20px;
+}
+.shoppingCar_main .show_item .show_item_check {
+  line-height: 60px;
+}
+.shoppingCar_main .show_item .show_item_img {
+  margin-top: 25px;
+  width: 70px;
+  height: 80px;
+}
+.shoppingCar_main .show_item .show_item_img img {
+  width: 70px;
+  height: 80px;
+  cursor: pointer;
+}
+.shoppingCar_main .show_item .show_item_name {
+  font-size: 14px;
+  width: 350px;
+}
+.shoppingCar_main .show_item .show_item_name span {
+  cursor: pointer;
+}
+.shoppingCar_main .show_item .show_item_price {
+  font-size: 14px;
+}
+.shoppingCar_main .show_item .show_item_adjust {
+  width: 250px;
+}
+.shoppingCar_main .show_item .show_item_adjust .adjust_box {
+  width: 100px;
+  margin-left: 110px;
+}
+.shoppingCar_main .show_item .show_item_adjust .adjust_box span {
+  float: left;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eaeaea;
+  margin-top: 50px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.shoppingCar_main .show_item .show_item_total {
+  margin-left: 80px;
+  width: 100px;
+  color: #ff1268;
+  font-size: 16px;
+  font-weight: 600;
+}
+.shoppingCar_main .show_item .show_item_delete {
+  width: 80px;
+  margin-left: 70px;
+}
+.shoppingCar_main .show_item .show_item_delete span {
+  cursor: pointer;
+}
+.shoppingCar_main .shoppCar_account {
+  width: 100%;
+  height: 50px;
+}
+.shoppingCar_main .shoppCar_account div {
+  text-align: center;
+  line-height: 50px;
+}
+.shoppingCar_main .shoppCar_account .check_all_box {
+  margin-left: 20px;
+  font-size: 12px;
+}
+.shoppingCar_main .shoppCar_account .check_all_box .check_all_inp {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.shoppingCar_main .shoppCar_account .check_all_box span {
+  cursor: pointer;
+}
+.shoppingCar_main .shoppCar_account .account_delete {
+  margin-left: 20px;
+}
+.shoppingCar_main .shoppCar_account .account_delete span {
+  cursor: pointer;
+}
+.shoppingCar_main .shoppCar_account .account_all, .shoppingCar_main .shoppCar_account .num_price {
+  float: right;
+}
+.shoppingCar_main .shoppCar_account .account_all {
+  width: 120px;
+  height: 50px;
+  background: #ff1268;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.shoppingCar_main .shoppCar_account .num_price {
+  margin-right: 20px;
+  font-size: 14px;
+}
+.shoppingCar_main .shoppCar_account .num_price .all_number {
+  color: #ff1268;
+  font-weight: 600;
+}
+.shoppingCar_main .shoppCar_account .num_price .all_price {
+  color: #ff1268;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=shoppingCar.css.map */

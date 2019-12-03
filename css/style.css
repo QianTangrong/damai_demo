@@ -1,0 +1,537 @@
+.icon {
+  width: 22px;
+  height: 22px;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  margin: 0 10px 0 0;
+}
+
+.load-top {
+  width: 100%;
+  height: 90px;
+}
+
+.load-top img {
+  float: left;
+  margin-top: 24px;
+  width: 108px;
+  height: 48px;
+}
+
+.load-top .english {
+  float: right;
+  margin-top: 24px;
+  width: 121px;
+  height: 38px;
+  line-height: 38px;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid #ebebeb;
+  font-size: 14px;
+  color: #888;
+  text-decoration: none;
+}
+
+.mainbg {
+  width: 100%;
+  height: 600px;
+  background-color: #17073d;
+}
+.mainbg .container{
+  height: 100%;
+}
+.mainbg .ad {
+  width: 720px;
+  height: 400px;
+  float: left;
+  margin: 90px 0 0 25px;
+}
+
+.mainbg .ad img {
+  width: 100%;
+  height: 100%;
+}
+
+.mainbg .loading {
+  width: 350px;
+  height: 350px;
+  background-color: #fff;
+  float: left;
+  margin: 90px 0 0 70px;
+}
+
+.mainbg .loading .load-load {
+  width: 100%;
+  height: 38px;
+}
+
+.mainbg .loading .load-load .active {
+  color: #ff1268;
+  background-color: #fff;
+  border-top: 3px solid #f66;
+}
+
+.mainbg .loading .load-load .pass-load-name {
+  width: 33.3%;
+  height: 38px;
+  float: left;
+  text-align: center;
+  line-height: 38px;
+}
+
+.mainbg .loading .load-load .sms-load-name {
+  width: 33.3%;
+  height: 38px;
+  float: left;
+  text-align: center;
+  line-height: 38px;
+}
+
+.mainbg .loading .load-load .scan-load-name {
+  width: 33.3%;
+  height: 38px;
+  float: left;
+  text-align: center;
+  line-height: 38px;
+}
+
+.mainbg .loading .load-cont .pass-load-cont {
+  width: 300px;
+  height: 245px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #666;
+  margin: 20px auto;
+  display: none;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .user {
+  width: 250px;
+  height: 42px;
+  padding: 0 0 0 50px;
+  border: 1px solid #e7e7e7;
+  margin-top: 20px;
+  position: relative;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .user .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  padding: 10px 10px;
+  background-color: #ccc;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .user input {
+  width: 100%;
+  height: 42px;
+  outline: none;
+  border: none;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .password {
+  width: 250px;
+  height: 42px;
+  padding: 0 0 0 50px;
+  border: 1px solid #e7e7e7;
+  margin-top: 20px;
+  position: relative;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .password .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  padding: 10px 10px;
+  background-color: #ccc;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .password input {
+  width: 100%;
+  height: 42px;
+  outline: none;
+  border: none;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .load-s {
+  width: 300px;
+  height: 42px;
+  margin-top: 20px;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .load-s input {
+  width: 100%;
+  height: 42px;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: #ff1268;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .login-blocks {
+  width: 300px;
+  height: 30px;
+  margin: 20px 0;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .login-links {
+  height: 20px;
+  margin: 8px 0;
+  text-align: right;
+  zoom: 1;
+}
+
+.mainbg .loading .load-cont .pass-load-cont .login-links a {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #0088cc;
+}
+
+.mainbg .loading .load-cont .sms-load-cont {
+  width: 300px;
+  height: 180px;
+  margin: 30px auto;
+  display: none;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-top {
+  width: 300px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-top .label-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 1px;
+  bottom: 1px;
+  background-color: #ccc;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-top .label-icon .icon {
+  width: 24px;
+  height: 27px;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-top .label-phone {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 60px;
+  padding-left: 10px;
+  height: 40px;
+  line-height: 40px;
+  border-right: 1px solid #ccc;
+  position: relative;
+  cursor: pointer;
+  color: #9b9b9b;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-top .input-wrap {
+  position: absolute;
+  top: 0;
+  left: 120px;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-top .input-wrap input {
+  width: 180px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-feed {
+  width: 300px;
+  height: 40px;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-feed .label-num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 1px;
+  bottom: 1px;
+  background-color: #ccc;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-feed .label-num .icon {
+  width: 24px;
+  height: 27px;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-feed .label-yzm {
+  position: absolute;
+  top: 0;
+  left: 45px;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-feed .label-yzm input {
+  width: 255px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-feed .send-btn {
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-feed .send-btn a {
+  color: #08c;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-btn {
+  width: 300px;
+  height: 42px;
+  margin-top: 20px;
+}
+
+.mainbg .loading .load-cont .sms-load-cont .sms-btn input {
+  width: 100%;
+  height: 42px;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: #ff1268;
+}
+
+.mainbg .loading .load-cont .scan-load-cont {
+  display: none;
+  width: 300px;
+  height: 230px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 20px 0 0 0;
+  font: 400 12px arial;
+  font-family: PingFang SC, Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, Microsoft YaHei;
+  color: #666;
+}
+
+.mainbg .loading .load-cont .scan-load-cont .qrcode-login-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 8px 0;
+  padding-left: 40px;
+  zoom: 1;
+  display: block;
+}
+
+.mainbg .loading .load-cont .scan-load-cont .qrcode-img {
+  position: relative;
+  margin: 20px auto;
+  margin-left: 100px;
+  font-size: 14px;
+  -webkit-box-shadow: 0 0 8px #ddd;
+  box-shadow: 0 0 8px #ddd;
+  opacity: 1;
+  width: 140px;
+  height: 140px;
+}
+
+.mainbg .loading .load-cont .scan-load-cont .qrcode-img img {
+  width: 130px;
+  height: 130px;
+  margin: 5px 5px;
+}
+
+.mainbg .loading .load-cont .scan-load-cont .qrcode-desc {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 160px;
+  margin: 0 0 0 80px;
+}
+
+.mainbg .loading .load-cont .scan-load-cont .qrcode-desc .icon {
+  color: #ff1268;
+  float: left;
+  width: 34px;
+  height: 34px;
+}
+
+.mainbg .loading .load-cont .scan-load-cont .qrcode-desc .p {
+  font-size: 12px;
+  padding-left: 44px;
+}
+
+.mainbg .loading .load-cont .scan-load-cont .qrcode-desc .p a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.mainbg .loading .load-cont .active {
+  display: block;
+}
+
+.register {
+  width: 100%;
+  height: 580px;
+  background-color: #f8f8f8;
+  padding-top: 40px;
+}
+
+.register .box-zhuce {
+  width: 1200px;
+  height: 580px;
+  background-color: #fff;
+}
+
+.register .box-zhuce .row-box {
+  width: 720px;
+  height: 370px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.register .box-zhuce .row-box .next-row {
+  width: 720px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 0;
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+
+.register .box-zhuce .row-box .next-row .row-col {
+  display: inline-block;
+  width: 228px;
+  height: 40px;
+  padding: 0 12px 0 0;
+  float: left;
+}
+
+.register .box-zhuce .row-box .next-row .row-col span {
+  display: inline-block;
+  line-height: 40px;
+  float: right;
+  font-size: 14px;
+  color: #666;
+  padding-left: 10px;
+}
+
+.register .box-zhuce .row-box .next-row .row-input {
+  display: inline-block;
+  width: 274px;
+  height: 38px;
+  padding: 0 12px;
+  border: 1px solid #c4c6cf;
+  float: left;
+  border-radius: 4px;
+}
+
+.register .box-zhuce .row-box .next-row .row-input input {
+  width: 274px;
+  height: 38px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  font-weight: 400;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0);
+  color: #333;
+}
+
+.register .box-zhuce .row-box .next-row .box-checkbox {
+  display: inline-block;
+  width: 274px;
+  height: 40px;
+  /* margin-bottom: 5px; */
+}
+
+.register .box-zhuce .row-box .next-row .box-checkbox input {
+  float: left;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.register .box-zhuce .row-box .next-row .box-checkbox  p {
+  display: inline-block;
+  /* background-color: blue; */
+  width: 220px;
+  height: 40px;
+  /* float: left; */
+  font-size: 12px;
+  margin-left: 10px;
+}
+.register .box-zhuce .row-box .next-row .agree{
+  width: 124px;height: 40px;
+  background-color: #ff166d;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5%;
+  outline: none;
+}
+.register .box-zhuce .row-box .next-row .box-removeCheck{
+  width: 300px;height: 40px;
+  float: left;
+  background-color: #e8e8e8;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #e8e8e8;
+}
+.register .box-zhuce .row-box .next-row .box-removeCheck .box-smallBox{
+  width: 40px;height: 40px;
+  background-color: #fff;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.register .box-zhuce .row-box .next-row .box-removeCheck .check-p{
+  display: block;
+  font-size: 12px;
+  color: #4d4d4d;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+.register .box-zhuce .row-box .next-row .box-removeCheck .check_tips{
+  float: right;
+}

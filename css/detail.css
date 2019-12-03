@@ -1,0 +1,214 @@
+@charset "UTF-8";
+.wrapBox {
+  margin-top: 10px;
+  width: 100%;
+  clear: both; }
+  .wrapBox .container .leftBox {
+    width: 72%;
+    padding-top: 25px;
+    padding-left: 20px;
+    border: 1px solid #e2e2e2;
+    float: left; }
+    .wrapBox .container .leftBox .left_top {
+      width: 100%;
+      box-sizing: border-box;
+      min-height: 720px; }
+      .wrapBox .container .leftBox .left_top .itemImg {
+        float: left;
+        position: relative; }
+        .wrapBox .container .leftBox .left_top .itemImg img {
+          width: 270px;
+          height: 360px; }
+        .wrapBox .container .leftBox .left_top .itemImg .box1 {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 70px;
+          height: 70px;
+          background: brown;
+          overflow: hidden; }
+          .wrapBox .container .leftBox .left_top .itemImg .box1 .bigg_pic {
+            width: 540px;
+            height: 720px;
+            position: absolute; }
+      .wrapBox .container .leftBox .left_top .itemTxt {
+        float: left;
+        margin-left: 30px; }
+        .wrapBox .container .leftBox .left_top .itemTxt .show_name {
+          font-size: 22px;
+          margin-bottom: 20px; }
+        .wrapBox .container .leftBox .left_top .itemTxt .show_date_box, .wrapBox .container .leftBox .left_top .itemTxt .show_space_box {
+          color: #4a4a4a;
+          margin-bottom: 5px; }
+        .wrapBox .container .leftBox .left_top .itemTxt .show_notice {
+          margin-top: 15px;
+          font-size: 12px;
+          overflow: hidden;
+          background: #f6f6f6;
+          padding-left: 10px; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_notice span {
+            display: block;
+            width: 35px;
+            height: 25px;
+            color: #ff1268;
+            font: 14px/45px "微软雅黑", Arial;
+            line-height: 25px;
+            background-color: #ffe7ef;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_notice div {
+            width: 490px;
+            font-size: 12px; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_notice .show_notice1 {
+            height: 45px;
+            color: #999; }
+        .wrapBox .container .leftBox .left_top .itemTxt .show_notice_time {
+          font-size: 12px;
+          color: #999;
+          margin-top: 20px;
+          margin-bottom: 10px; }
+        .wrapBox .container .leftBox .left_top .itemTxt .show_select_time {
+          height: 48px;
+          color: #4a4a4a;
+          margin-bottom: 25px; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_select_time div {
+            float: left; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_select_time .show_time_box {
+            border: 1px solid #cecbcb;
+            padding: 12px 24px;
+            color: #ff1268;
+            font-size: 12px;
+            margin-left: 15px;
+            position: relative;
+            cursor: pointer; }
+            .wrapBox .container .leftBox .left_top .itemTxt .show_select_time .show_time_box .show_time_tips {
+              display: block;
+              position: absolute;
+              left: -1px;
+              top: -1px;
+              background: #ff2d79;
+              padding: 0 4px;
+              text-align: center;
+              border-bottom-right-radius: 5px;
+              color: #fff;
+              font-size: 12px; }
+        .wrapBox .container .leftBox .left_top .itemTxt .show_select_price {
+          height: 75px;
+          color: #4a4a4a;
+          margin-bottom: 50px; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_select_price div {
+            float: left; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_select_price .show_minPrice_box, .wrapBox .container .leftBox .left_top .itemTxt .show_select_price .show_maxPrice_box {
+            padding: 6px 24px 6px;
+            margin: 0 6px 6px 0;
+            height: 100%;
+            line-height: 75px;
+            font-size: 12px;
+            margin-left: 15px;
+            border: 1px solid #e2e2e2;
+            cursor: pointer; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_select_price .price_active {
+            color: #ff1268;
+            background: #ffeaf1;
+            border: none; }
+        .wrapBox .container .leftBox .left_top .itemTxt .show_select_number {
+          width: 500px;
+          height: 40px;
+          color: #4a4a4a;
+          margin-bottom: 50px; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_select_number div {
+            float: left; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_select_number .buy_number_adjust {
+            width: 120px;
+            height: 48px;
+            box-sizing: border-box;
+            padding: 10px;
+            line-height: 30px;
+            border: 1px solid #e2e2e2;
+            display: flex;
+            margin-left: 15px; }
+            .wrapBox .container .leftBox .left_top .itemTxt .show_select_number .buy_number_adjust .adjust_reduce, .wrapBox .container .leftBox .left_top .itemTxt .show_select_number .buy_number_adjust .adjust_add {
+              display: block;
+              width: 28px;
+              height: 28px;
+              background-color: #f2f3f4;
+              font-size: 14px;
+              color: #000;
+              line-height: 28px;
+              text-align: center;
+              cursor: pointer; }
+            .wrapBox .container .leftBox .left_top .itemTxt .show_select_number .buy_number_adjust .adjust_number {
+              margin-left: 20px; }
+            .wrapBox .container .leftBox .left_top .itemTxt .show_select_number .buy_number_adjust .adjust_add {
+              margin-left: 13px; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_select_number .adjust_noitce {
+            display: inline-block;
+            font-size: 12px;
+            color: #999;
+            height: 16px;
+            margin-top: 30px;
+            margin-left: 5px; }
+        .wrapBox .container .leftBox .left_top .itemTxt .show_buy_price {
+          height: 40px;
+          color: #4a4a4a;
+          margin-bottom: 20px; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_buy_price div {
+            float: left; }
+          .wrapBox .container .leftBox .left_top .itemTxt .show_buy_price .price_notice {
+            margin-left: 15px; }
+            .wrapBox .container .leftBox .left_top .itemTxt .show_buy_price .price_notice .price_total {
+              color: #ff1268;
+              font-size: 21px; }
+            .wrapBox .container .leftBox .left_top .itemTxt .show_buy_price .price_notice .price_count {
+              font-size: 12px;
+              color: #999;
+              margin-left: 5px;
+              cursor: pointer; }
+        .wrapBox .container .leftBox .left_top .itemTxt .buy_now {
+          margin-left: 100px; }
+          .wrapBox .container .leftBox .left_top .itemTxt .buy_now .buy_button {
+            width: 210px;
+            height: 41px;
+            background-color: #ff2d79;
+            color: white;
+            border: none;
+            outline: none;
+            border-radius: 3%;
+            cursor: pointer; }
+  .wrapBox .container .rightBox .service {
+    width: 283px;
+    height: 517px;
+    border: 1px solid #e2e2e2;
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    background: #fafafa; }
+    .wrapBox .container .rightBox .service div {
+      margin-bottom: 10px; }
+    .wrapBox .container .rightBox .service .service_title {
+      font-size: 14px; }
+    .wrapBox .container .rightBox .service .service_content {
+      font-size: 12px;
+      color: #999;
+      margin-bottom: 25px; }
+    .wrapBox .container .rightBox .service .service_erweima {
+      height: 90px;
+      background-color: #fff;
+      font-size: 12px;
+      color: #999;
+      text-align: center; }
+      .wrapBox .container .rightBox .service .service_erweima div {
+        float: left; }
+      .wrapBox .container .rightBox .service .service_erweima .erweima_txt {
+        width: 160px; }
+        .wrapBox .container .rightBox .service .service_erweima .erweima_txt .erweima_txtP {
+          margin-top: 30px; }
+      .wrapBox .container .rightBox .service .service_erweima .erweima_img img {
+        width: 90px;
+        height: 90px; }
+
+/*# sourceMappingURL=detail.css.map */
